@@ -15,10 +15,15 @@ conda create -n chrimp python=3.12
 conda activate chrimp
 ```
 
-The dependencies can be easily installed with: 
+The dependencies can be easily installed with:
 
 ```bash
 pip install -r requirements.txt
+```
+
+and then the package installed with:
+```bash
+pip install -e .
 ```
 
 ## Models
