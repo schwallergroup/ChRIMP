@@ -21,7 +21,18 @@ The dependencies can be easily installed with:
 pip install -r requirements.txt
 ```
 
-and then the package installed with:
+Then install the package depending on your use case:
+
+### Simple user
+
+```bash
+pip install .
+```
+
+### Developer
+
+Install in editable mode so local changes are picked up without reinstalling:
+
 ```bash
 pip install -e .
 ```
